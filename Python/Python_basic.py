@@ -213,8 +213,6 @@ print("=======================================")
 
 print("=======Inheritance Again=======")
 
-
-
 #Class
 class Animal():
     __name=""    #__ before the name makes the attributes private.
@@ -296,3 +294,74 @@ spot = Dog("spot", 60, 12, "Woof", "Tester")
 
 print(spot.toString())
 print(spot.multiple_sounds(3))
+
+print("=======================================")
+
+print("=======Modules=======")
+
+print(dir(os)) #prints all functions present in os
+#from math import sqrt   to import only few functions from a module
+
+#os module can be used for manupulating the files in the os.
+
+print("=======================================")
+
+print("=======Regular expressions=======")
+import re #import regular expression module
+str = "A quick brown fox jumped over the lazy dog 0123456789(*&^%$!@"
+print(re.sub('[ad]','*',str))  #searches for one or more instances of a or d and replaces with * 
+#A quick brown fox jumpe* over the l*zy *og 0123456789(*&^%$!@
+###ADD more examples as you go along.
+
+
+print("=======================================")
+
+print("=======Exception Handleing=======")
+
+#Exception handling helps in continueing the program even if some error occurs that you otherwise have stopped the program run.
+#format
+'''
+try:
+    #Do something
+    pass
+except exception1:
+    #handle the exception
+    pass
+except exception2:
+    #handle the exception
+    pass
+except:
+    #handle all other exceptions
+    pass
+finally:
+    #this block is exectuted even if exception occurs or does not occure.
+'''
+#for user defined exceptions, we can create class for exceptions
+'''
+class Error(Exception): #this class inherits from the in-built Exception class
+    #class body
+    pass
+
+class valueError(Error):
+    #user defined exception that inherits the Error class above.
+    #class body
+    pass
+
+try:
+    #do something
+    pass
+except valueError:
+    #this handels the user defined error
+    pass 
+finally:
+    #do something finally.
+    pass
+'''
+
+
+
+
+print("=======================================")
+
+print("=======Modules=======")
+
