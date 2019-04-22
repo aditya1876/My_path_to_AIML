@@ -101,5 +101,22 @@ print(b.shape) # prints teh rowsxcol value of array
 print(b.ndim) # no of array dimensions. Here it is a 2-d array
 print(b.itemsize) #length of each element of array in bytes
 
-#cont from- https://www.youtube.com/watch?v=vaysJAMDaZw&t=782s 
-#Reading and writing fromtxt files
+print("==========================")
+print("=======Reading and writing from txt files=======")
+
+#a = np.arange(20)
+a = np.array([[1,2],[3,4]])
+print(a)
+np.savetxt('text1.txt', a) #saves the array arr data into the text1 file.
+arr = np.loadtxt('text1.txt') #loads data from txt file into the ndarray arr automatically
+print(arr)
+
+#to save as .csv delimited with comma do the following
+np.savetxt('text2.csv', a, delimiter=',') #saves value of a into a csv file.
+arr2 = np.genfromtxt('text2.csv',delimiter=',') #loadtxt does not work here.
+print(arr2)
+
+import os
+
+os.remove('text1.txt')
+os.remove('text2.csv')
