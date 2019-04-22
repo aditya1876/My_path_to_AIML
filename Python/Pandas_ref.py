@@ -121,7 +121,3 @@ df.to_csv("test.csv")
 #to read - table = pa.read_excel("<path to excel>")
 #to write - df.to_excel("<path to exce")
 
-
-print("====================")
-print("=======PANDAS=======")
-
