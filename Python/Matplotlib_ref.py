@@ -67,9 +67,48 @@ print("=======Histogram=======")
 print("====================")
 print("=======Bar graph=======")
 
-#cont from https://www.youtube.com/watch?v=vaysJAMDaZw&t=782s  4:50 hrs
-# https://elitedatascience.com/learn-python-for-data-science
-# https://github.com/aditya1876/My_path_to_AIML
-# https://www.google.co.nz/search?q=escape+char+in+python&oq=escape+char+in+python&aqs=chrome..69i57j0l3.7772j0j7&client=ubuntu&sourceid=chrome&ie=UTF-8
+# plt.bar([1,2,3,4,6],[10,20,30,40,60])
+# plt.show()
+
+# dict1 = {'A':10,'B':20,'C':30,'D':45}
+# for i,k in enumerate(dict1):
+#     plt.bar(k,i)  #need to enumerate and key value pair is plotted individuall because dictionaries are not iteratable
+
+# plt.show() 
+
+
+print("====================")
+print("=======Pie Chart=======")
+
+# plt.figure(figsize=(3,3))  #give size of pie chart in inches
+# plt.pie([10,20,40], labels=['A','B','C'])
+# plt.show()
+
+
+print("====================")
+print("=======Scatter Plot=======")
+
+# x=np.random.rand(1000)
+# y=np.random.rand(1000)
+
+# plt.scatter(x,y) # prints 2 gaussian points
+# plt.show()
+
+
+print("====================")
+print("=======Styling the plot=======")
+
+x=np.arange(1,10)
+#Colours in graph
+# plt.plot(x, 'y') #y,r,b are the colours for the plot lines in the graph.
+# plt.plot(x+5,'r') #colour codes are provided by matplotlib. Google to get the colour codes.
+# plt.plot(x+10,'b') 
+# plt.show()
+
+#Stying the plot lines
+# plt.plot(x,'-',x+5,':', x+10,'--') # '-' = solid line, '--' = dashed line, '-.' = dashdot line, ':'=dotted line
+# plt.plot(x,'*',x+5,'o',x+10,'D',x+15,'^',x+20,'s') #to show the data points on the plot
+# plt.show() 
+
 
 
