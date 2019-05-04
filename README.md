@@ -8,3 +8,7 @@ Stage 1 - Python<br>
 Stage 2 - Mathematics<br>
 Stage 3 - Statistics<br>
 Stage 4 - TBD....<br>
+
+Continue from here - 
+Data Science - https://www.youtube.com/watch?v=aGu0fbkHhek
+Machine learning - https://www.youtube.com/watch?v=b2q5OFtxm6A&t=2s
