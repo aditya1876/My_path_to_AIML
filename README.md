@@ -12,3 +12,12 @@ Stage 4 - TBD....<br>
 Continue from here - 
 Data Science - https://www.youtube.com/watch?v=aGu0fbkHhek
 Machine learning - https://www.youtube.com/watch?v=b2q5OFtxm6A&t=2s
+https://developers.google.com/machine-learning/crash-course/ 
+
+
+Job Profiles - 
+
+Data Analyst - uses data to make better business dicisions
+
+AI/ML einngineer - programmers who can develop machines that can learn and apply knowledge without specific direction.
+Data Scientest - Those who crack complex data problems using statistics, maths, computer science.
